@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Trivia kata in typescript",
   "main": "src/game-runner.ts",
+  "private": true,
   "scripts": {
     "start": "ts-node src/game-runner.ts",
     "test": "nyc mocha --recursive --require ts-node/register \"tests/**/*.test.ts\""
@@ -32,6 +33,7 @@
     "typescript": "^2.9.2"
   },
   "devDependencies": {
+    "@types/node": "^12.12.7",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
     "nyc": "^12.0.2",
